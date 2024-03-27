@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from dto.dto_models import *
-from serivces.base_congrat_generation_service import base_congrat_generation_service
+from services.base_congrat_generation_service import base_congrat_generation_service
 
 app = FastAPI()
 
