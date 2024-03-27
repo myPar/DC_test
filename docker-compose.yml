@@ -1,0 +1,11 @@
+version: "3.8" # Compose file format version (corresponds to docker engine version)
+services:
+  congrat-service:
+    build: ./congrat-service/
+    container_name: congrat_service_
+    ports: 
+      - 8080:8080
+  get-city-service:
+    build: ./get-city-service/
+    container_name: get_city_service_
+

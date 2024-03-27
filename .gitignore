@@ -1,0 +1,7 @@
+/test_gpt_model
+/get_city_service/__pycache__
+/get_city_service/.idea
+/congrat-service/__pycache__
+/congrat-service/.idea
+/congrat-service/model
+*.pyc
