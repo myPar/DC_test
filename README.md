@@ -100,7 +100,7 @@ docker-compose up
 
 Сервис для поиска городов требуется запустить отдельной командой внутри его контейнера:
 ```bash
-docker exec -d get_city_service_ python main.py
+docker run -it dc_test-get-city-service python /get_city_service/main.py
 ```
 
 Также, можете отдельно запустить baseline для создания результирующего датасета data.csv
